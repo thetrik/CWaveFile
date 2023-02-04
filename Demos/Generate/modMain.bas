@@ -16,7 +16,7 @@ Sub Main()
     
     Set cFile = New CWaveFile
     
-    lSampleRate = 8000
+    lSampleRate = 22050
     
     ' // Initialize sound with 22050 Hz 2 seconds
     cFile.InitNew 1, lSampleRate * 2, lSampleRate
